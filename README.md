@@ -1,1 +1,3 @@
-# hospital_project
+<h1>Hospital Project</h1>
+
+<p>A hospital has large number of doctors with specified specialty. The hospital allows new as well old patients to take appointment of the doctors. New patients first fill up an onlien registration form giving all the details of their illness, they are called for physical examination by the doctor on a specific date. After going through all the details the doctor either confirms the registration of the patient or rejects it. All registered patients can book the appointments of the doctors. Doctors are available for consultation only on specific days. THe appointments are booked for a time slot of 15 minutes on specific dates. Analyse the requirements in details and design & develop the online appointment system for the hospital</p>
