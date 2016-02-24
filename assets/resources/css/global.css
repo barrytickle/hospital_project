@@ -1,0 +1,114 @@
+/* --------------------------------------------------------------- */
+/* MAIN STYLING */
+/* --------------------------------------------------------------- */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-size:16px;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+    /*background-color:#e4e4e4;*/
+}
+
+body{
+    position:relative;
+}
+
+.row{
+    max-width:1140px;
+    width:100%;
+    margin:0 auto;
+}
+
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+section{
+    padding:60px;
+}
+
+.lorem:after{
+    display:block;
+    content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis porttitor dolor eget mollis. Nunc quis quam ut sem vulputate faucibus vel nec nulla. Maecenas semper mollis sem at lobortis. Maecenas non lacus dolor. Aenean libero quam, accumsan ut massa vel, iaculis condimentum metus. Suspendisse ullamcorper eu sem eu iaculis. Integer sit amet varius turpis, ut mattis nisl. Nunc rutrum eget enim sit amet laoreet. Nunc nec nunc purus. Nullam sagittis faucibus leo, eu lobortis dolor condimentum sed. ';
+}
+
+/* --------------------------------------------------------------- */
+                            /*HEADER*/
+/* --------------------------------------------------------------- */
+
+header{
+    /*background-color:#35cf76;*/
+    height:10vh;
+    /*background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('http://hospital/assets/vendors/img/background/pexels-photo.jpg');*/
+
+}
+
+header ul{
+    list-style:none;
+    margin-bottom:0;
+    float:left;
+    max-width:50%;
+}
+
+header .row{
+    border-bottom:1px solid #d2d2d2;
+    min-height:50px;
+}
+
+header ul li{
+    display:inline-block;
+    line-height:50px;
+    margin-right:30px;
+    font-weight:100;
+}
+
+header ul li a{
+    color:#555;
+}
+
+header .site-title{
+    font-weight:bold;
+    font-size:160%;
+}
+
+header .menu-right{
+    float:right;
+    max-width:50%;
+}
+
+/* --------------------------------------------------------------- */
+                    /*HERO*/
+/* --------------------------------------------------------------- */
+
+#hero p{
+    width:60%;
+    line-height:145%;
+    color:#888;
+}
+
+#hero{
+    height:25vh;
+    border-bottom:1px solid #d2d2d2;
+}
+
+/* --------------------------------------------------------------- */
+                            /*FOOTER*/
+/* --------------------------------------------------------------- */
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+footer .row{
+    padding-top:20px;
+    border-top:1px solid #d2d2d2;
+}
